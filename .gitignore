@@ -1,0 +1,19 @@
+# OS/Tool Files
+*~
+.DS_Store
+*.bak
+*.swp
+Thumbs.db
+node_modules
+
+# Ignores all WP Content except custom plugins and themes
+wp-content/*
+!wp-content/plugins/
+wp-content/plugins/*
+!wp-content/themes/
+wp-content/themes/*
+!wp-content/themes/rltheme
+
+# Duplicate and uncomment as needed
+# !wp-content/plugins/%custom-plugin-name%
+# !wp-content/themes/%custom-theme-name%
